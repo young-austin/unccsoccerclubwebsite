@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Us</title>
+    <link rel="icon" href="images/clubsoccericon.jpg">
+    <link rel="stylesheet" href="jquery-ui-1.12.1.custom/jquery-ui.min.css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="main.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="https://cdn.rawgit.com/vast-engineering/jquery-popup-overlay/1.7.13/jquery.popupoverlay.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script src="main.js"></script>
+</head>
+<body>
+  <header>
+      <h1 class="sansserif">
+          <img src="images/49erLogo.png" alt="uncc logo">
+      </h1>
+      <nav>
+        <ul>
+          <li><a href="index.html" id="home">Home</a></li>
+          <li><a href="schedule.html" id="schedule">Schedule</a></li>
+          <li><a href="league.html" id="league">League</a></li>
+          <li><a href="about.html" id="about">About the Team</a></li>
+          <li><a href="contact.html" id="contact">Contact us</a></li>
+        </ul>
+      </nav>
+  </header>
+
+<main>
+  <h2>Contact Us:</h2>
+    <div class="contactForm">
+      <form id="contactForm" method="post" action="">
+        <input name="name" type="text" class="formControl" placeholder="Your Name" required><br>
+        <input name="email" type="email" class="formControl" placeholder="Your Email" required><br>
+        <label>Subject:</label><br>
+        <select class="formControl" name="subject">
+          <option value="blank"></option>
+          <option value="joining">Joining the team</option>
+          <option value="sponser">Sponership opportunities</option>
+          <option value="other">Other Inquiry</option>
+        </select><br>
+        <textarea name="message" class="formControl" placeholder="Message" rows="4" required></textarea><br>
+        <input type="button" class="formControl submit" value="Send Message" id="submit">
+      </form>
+      <div id="dialog" title="Message Submitted!" style="display: none;">
+        <p>We will respond to you by email as soon as we are available!</p>
+      </div><br>
+    </div>
+    <br>
+    <h1 class="centertext">Or...</h1><br>
+    <h2>Contact the clubs president directly:</h2>
+    <h3>
+        Bryce Spesock<br>
+        Email: bspesock@uncc.edu<br>
+        Phone: (336) 862-6381
+    </h3>
+</main>
+<footer>
+  <a href="https://validator.w3.org/check?uri=referer">Validate HTML</a>
+  <a href="https://jigsaw.w3.org/css-validator/check/referer">Validate CSS</a>
+  © 2018 Austin Young
+</footer>
+</body>
+</html>

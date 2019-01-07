@@ -1,0 +1,189 @@
+
+header img {
+    height: 70px;
+    padding: 5px;
+    margin-left: 15px;
+}
+body {
+    height: 125vh;
+    background-color: #046A38;
+    background-size: cover;
+    font-family: sans-serif;
+    margin-top: 80px;
+    padding: 30px;
+}
+
+@font-face {
+  font-family: bebas neue;
+  src: url(fonts/BebasNeue-Regular.otf);
+}
+
+@font-face {
+  font-family: open-sans;
+  src: url(fonts/OpenSans-Regular.ttf);
+}
+
+@font-face {
+  font-family: open-sans-bold;
+  src: url(fonts/OpenSans-Bold.ttf);
+}
+
+@font-face {
+  font-family: open-sans-semibold;
+  src: url(fonts/OpenSans-SemiBold.ttf);
+}
+
+h1 {
+  font-family: bebas neue;
+  font-size: 50px;
+}
+
+.sansserif {
+  font-family: sans-serif;
+  font-size: 2em;
+}
+
+.fix {
+  font-family: sans-serif;
+}
+
+h2 {
+  font-family: open-sans-semibold;
+}
+
+main {
+    color: white;
+}
+
+header {
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 25px 0 black;
+    z-index: 1;
+}
+
+header * {
+    display: inline;
+}
+
+header li {
+  margin: 20px;
+}
+
+header li a {
+  color: black;
+  text-decoration: none;
+}
+
+header li a:hover {
+  color: #B9975B;
+}
+
+footer {
+  clear: both;
+  color: black;
+  background-color: white;
+  text-align:center;
+  height: 30px;
+  line-height: 30px;
+  font-size: 80%;
+  margin-left:-100%;
+  margin-right:-100%;
+  position: fixed;
+  bottom:0;
+  left:0;
+  right:0;
+}
+
+.slider img {
+  margin: 0 auto;
+  align-items: center;
+  height: 400px;
+}
+
+.slick-track {
+    margin: auto;
+}
+
+.centertext {
+  text-align: center;
+}
+
+.center {
+    padding-top: 35px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    text-align: justify;
+}
+
+.ninerEngageButton {
+    background-color: #B9975B;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    font-size: 16px;
+    font-family: open-sans-semibold;
+    align-items: center;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+.ninerEngageButtonBackground {
+  background-color: #48484a;
+  position: absolute;
+  left: 0;
+  right: 0;
+  box-shadow: 0 0 25px 0 black;
+}
+
+form {
+  margin-top: 50px;
+  transition: all 4s ease-in-out;
+
+}
+
+.formControl {
+  width: 400px;
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid white;
+  color: white;
+  font-size: 18px;
+  margin-bottom: 16px;
+}
+
+form .submit {
+  background: #B9975B;
+  border-color: transparent;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  height: 50px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+select option {
+  color: black;
+}
+
+iframe {
+  text-align: center;
+}
+
+p {
+  display: inline;
+}
