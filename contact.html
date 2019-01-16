@@ -34,16 +34,19 @@
   <h2>Contact Us:</h2>
     <div class="contactForm">
       <form id="contactForm" method="post" action="">
-        <input name="name" type="text" class="formControl" placeholder="Your Name" required><br>
-        <input name="email" type="email" class="formControl" placeholder="Your Email" required><br>
-        <label>Subject:</label><br>
-        <select class="formControl" name="subject">
-          <option value="blank"></option>
+        <label for="name">Name:</label><br>
+        <input name="name" type="text" class="formControl" id="name"><br>
+        <label for="email">Email:</label><br>
+        <input name="email" type="email" class="formControl" id="email" required><br>
+        <label for="subject">Subject:</label><br>
+        <select class="formControl" name="subject" id="subject">
+          <option value="blank"> </option>
           <option value="joining">Joining the team</option>
           <option value="sponser">Sponership opportunities</option>
           <option value="other">Other Inquiry</option>
         </select><br>
-        <textarea name="message" class="formControl" placeholder="Message" rows="4" required></textarea><br>
+        <label for="message">Message:</label><br>
+        <textarea name="message" class="formControl" rows="4" id="message" required></textarea><br>
         <input type="button" class="formControl submit" value="Send Message" id="submit">
       </form>
       <div id="dialog" title="Message Submitted!" style="display: none;">
@@ -60,8 +63,6 @@
     </h3>
 </main>
 <footer>
-  <a href="https://validator.w3.org/check?uri=referer">Validate HTML</a>
-  <a href="https://jigsaw.w3.org/css-validator/check/referer">Validate CSS</a>
   © 2018 Austin Young
 </footer>
 </body>
